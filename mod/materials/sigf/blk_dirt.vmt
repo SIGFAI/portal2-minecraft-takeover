@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "sigf/blk_dirt"
+	"$nodecal" "1"
+	"$halflambert" "1"
+}

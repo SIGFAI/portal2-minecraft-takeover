@@ -1,0 +1,5 @@
+Moments the clip must show (tick only if seen in the preview screenshots):
+[x] 1. The grey test chamber turns into a Minecraft block world: grass field, dirt hill, tree, stone and TNT blocks appear block by block.
+[x] 2. A creeper (green blocks, black face) walks toward the player and gets hit by thrown cubes (red flash, knock-back, "Creeper was blown up").
+[x] 3. TNT block flashes red and white, explodes, kills the creepers and sends blocks flying (slow motion, fireball, shake).
+[x] 4. Several creepers swell and explode near the player, blowing the field apart; the blocks grow back.
