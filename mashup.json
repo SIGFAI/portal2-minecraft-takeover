@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Minecraft Takeover",
   "tagline": "Bring Minecraft into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "The test chamber turns into a Minecraft block world and creepers walk at you, hiss and explode.",
+    "Knock creepers out with fast-moving cubes or blocks; cubes are also thrown at the nearest creeper for you.",
+    "Now and then a TNT block falls near a creeper and blows the room apart.",
+    "Open the console and type: map sp_a2_catapult_intro"
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -245,8 +251,5 @@
     "id": "portal2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:14.867Z",
-  "notes": [
-    "Copy the mod folder's contents and the kit's game folder into a new folder named sigf next to portal2.exe, then start Portal 2 with: -game sigf -windowed +sv_cheats 1 +map sp_a2_catapult_intro. Creepers and blocks appear on their own."
-  ]
+  "built_at": "2026-10-05T15:24:14.867Z"
 }
