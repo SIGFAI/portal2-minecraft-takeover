@@ -1,0 +1,252 @@
+{
+  "id": "sigf/portal2-minecraft-takeover",
+  "version": "1.0.0",
+  "name": "Minecraft Takeover",
+  "tagline": "Bring Minecraft into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "minecraft",
+      "role": "guest",
+      "label": "Minecraft"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-minecraft-takeover.zip",
+          "dst": "{game}/sigf_minecraft_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/models/props/metal_box_skin001.vmt",
+              "sha256": "48a9ba618b3abfe9a0eaed09662eaf6b601718c516249d1c9a6db81b625f2ae2"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin002.vmt",
+              "sha256": "defda32d11ded9bb2ea593318283d1c3749a2d0562e961140f353614ea5bc4ae"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin003.vmt",
+              "sha256": "8cf0ccc4476182bcb4c7c38f62d812ee455f55ad7dccc2d9eb631971ac94319d"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin004.vmt",
+              "sha256": "570edd7d20e28555951fdfdb4d014a73dc95dca8841ed5a6a4d327db207798d7"
+            },
+            {
+              "path": "materials/models/props/metal_box_skin005.vmt",
+              "sha256": "3a9f49d13ef2d98f27fe2b759d78213270ceb6cb2f9d66844a1c7be36adea13c"
+            },
+            {
+              "path": "materials/models/props/metal_box.vmt",
+              "sha256": "71f1f878a30463283a71a9e66a2609b1a223cf276191358b4ceea5f8e5b00677"
+            },
+            {
+              "path": "materials/sigf/blk_creeper.vmt",
+              "sha256": "3a9f49d13ef2d98f27fe2b759d78213270ceb6cb2f9d66844a1c7be36adea13c"
+            },
+            {
+              "path": "materials/sigf/blk_creeper.vtf",
+              "sha256": "d302d7bfe565f8e3d60fcab197c1fa45fb5105768ad3298324221c3d4dc2a4a5"
+            },
+            {
+              "path": "materials/sigf/blk_dirt.vmt",
+              "sha256": "defda32d11ded9bb2ea593318283d1c3749a2d0562e961140f353614ea5bc4ae"
+            },
+            {
+              "path": "materials/sigf/blk_dirt.vtf",
+              "sha256": "434168a6ca1962654003983e3f2ba5bf202ffcf3ad17d2dcc5832176dc9687a6"
+            },
+            {
+              "path": "materials/sigf/blk_grass.vmt",
+              "sha256": "48a9ba618b3abfe9a0eaed09662eaf6b601718c516249d1c9a6db81b625f2ae2"
+            },
+            {
+              "path": "materials/sigf/blk_grass.vtf",
+              "sha256": "9d120e7e2ce60acec0f22d302d489bbb5689a9e87dd25f529988f1e9f6ad2a17"
+            },
+            {
+              "path": "materials/sigf/blk_planks.vmt",
+              "sha256": "8cf0ccc4476182bcb4c7c38f62d812ee455f55ad7dccc2d9eb631971ac94319d"
+            },
+            {
+              "path": "materials/sigf/blk_planks.vtf",
+              "sha256": "4d145b75c6a17ebef146c7b83aa0c9f3d5df6ce1bfe2ae934b87efc2ad8385b2"
+            },
+            {
+              "path": "materials/sigf/blk_stone.vmt",
+              "sha256": "71f1f878a30463283a71a9e66a2609b1a223cf276191358b4ceea5f8e5b00677"
+            },
+            {
+              "path": "materials/sigf/blk_stone.vtf",
+              "sha256": "26bd21f74bfcbd7c671c4f90c10a90b084a5c4dd08340c5085e5f41a53b5e183"
+            },
+            {
+              "path": "materials/sigf/blk_tnt.vmt",
+              "sha256": "570edd7d20e28555951fdfdb4d014a73dc95dca8841ed5a6a4d327db207798d7"
+            },
+            {
+              "path": "materials/sigf/blk_tnt.vtf",
+              "sha256": "3f5942a6d472b55a76c4b8f806d5dfeeb54f5cdc436cdce1af18926ef3524179"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "c311189d4007e8cb0ae10485e2945f6093f4e32c111c54e308acc0e6f1303f9e"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "a438917b6db65a066715b0db66568c1dbd3a7367175b866892f90ae66a60284b"
+            },
+            {
+              "path": "sound/sigf/mc_boom.wav",
+              "sha256": "15be66edeb59b6b93820aaae6bfa1910ebe4ec3b04041831bdc310f45897650c"
+            },
+            {
+              "path": "sound/sigf/mc_fuse.wav",
+              "sha256": "0bf34aad762371ac149d1ad37f4b0ff81d321e378e4c280a3a26d2c1bc7afe08"
+            },
+            {
+              "path": "sound/sigf/mc_hiss.wav",
+              "sha256": "911849656216c143da155387183a48b74019aac2dd3c831a38b8e9b909d79e7c"
+            },
+            {
+              "path": "sound/sigf/mc_hurt.wav",
+              "sha256": "6d10cd17c27a3a4a5bbd5c4791a54fc0e09f15f9a7564fa113e4ec1b2181ac4f"
+            },
+            {
+              "path": "sound/sigf/mc_place.wav",
+              "sha256": "008ce4690a28a9128bfa6c102dc98c8b95f681c4707aa8161642e1d997851c81"
+            },
+            {
+              "path": "sound/sigf/mc_pling.wav",
+              "sha256": "bebf3d142982a38ae412c8d22db12db419d5d8a9f62590a2329b8da49e04bbd9"
+            },
+            {
+              "path": "sound/sigf/mc_pop.wav",
+              "sha256": "1cce56f8abca82cf2fc8d1658f12fe618e1b4dea5785a66f425f165e67e92291"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-minecraft-takeover/releases/download/v1.0.0/portal2-minecraft-takeover.zip",
+          "sha256": "8ecfdbb34326c1b6f99ef5e6df56861bbbb017e337d12e1ac16f71e542db88e9",
+          "size": 523069
+        },
+        {
+          "src": "portal2-minecraft-takeover-game-kit.zip",
+          "dst": "{game}/sigf_minecraft_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "3061dc6a358642db7d716a87ca1e3f12a1f6682b61ba1db03476cb287605f0e1"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "6c9e841b49c906bd8b44608d30d054d07371995dfc1b03f0a593635b174e59f4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-minecraft-takeover/releases/download/v1.0.0/portal2-minecraft-takeover-game-kit.zip",
+          "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+          "size": 50471
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_minecraft_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-minecraft-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-minecraft-takeover/releases/download/v1.0.0/portal2-minecraft-takeover.zip",
+      "sha256": "8ecfdbb34326c1b6f99ef5e6df56861bbbb017e337d12e1ac16f71e542db88e9",
+      "size": 523069
+    },
+    {
+      "name": "portal2-minecraft-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-minecraft-takeover/releases/download/v1.0.0/portal2-minecraft-takeover-game-kit.zip",
+      "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+      "size": 50471
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-minecraft-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:24:14.867Z",
+  "notes": [
+    "Copy the mod folder's contents and the kit's game folder into a new folder named sigf next to portal2.exe, then start Portal 2 with: -game sigf -windowed +sv_cheats 1 +map sp_a2_catapult_intro. Creepers and blocks appear on their own."
+  ]
+}
